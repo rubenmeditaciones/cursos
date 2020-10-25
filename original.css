@@ -1,0 +1,10 @@
+ <div class="video">
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"></iframe>
+		   </div>          
+		   
+		   .hero-area .video {
+    padding: 180px 0 0px; }
+    .hero-area .video video {
+      display: block;
+      height: auto;
+      max-width: 100%; }
