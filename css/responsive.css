@@ -39,7 +39,7 @@
 		}
 	.section-header .desc-text h5 {
 		margin-left: 60px; }
-	.section-header .desc-text h6 {
+	.section-header .desc-text1 p {
 		margin-left: 60px;
 		}
   .navbar-expand-md .navbar-nav .nav-link {
@@ -117,7 +117,7 @@
 				}
 	.section-header .desc-text h5 {
 		margin-left: 100px; }
-	.section-header .desc-text h6 {
+	.section-header .desc-text1 p {
 		margin-left: 100px;
 		}
 		#business-plan .business-item-img {
@@ -191,7 +191,7 @@
 		}
 	.section-header .desc-text h5 {
 		margin-left: 60px; }
-	.section-header .desc-text h6 {
+	.section-header .desc-text1 p {
 		margin-left: 60px;
 		}
   .navbar-expand-md .navbar-brand, .navbar-expand-md .navbar-toggler {
@@ -208,9 +208,9 @@
     background: #191c1e; }
 	.section-header .desc-text h5 {
 		margin-left: 10px; }
-	.section-header .desc-text h6 {
-		margin-left: 10px;
-		}
+	.section-header .desc-text1 p {
+		margin-left: 30px;
+				}
   .navbar {
     padding: 0; }
   .navbar-brand img {
@@ -230,7 +230,7 @@
   .hero-area .contents {
     padding: 120px 0 50px; }
   .hero-area .contents p {
-    color: #fff;
+    color: #000;
     font-size: 14px;
     line-height: 26px; }
   .hero-area .contents .btn {
@@ -253,6 +253,8 @@
     padding: 30px 0 0px; }
   .section {
     padding: 70px 0px; }
+	
+	
   #services .services-item {
     padding: 30px 15px;
     margin-bottom: 15px; }
