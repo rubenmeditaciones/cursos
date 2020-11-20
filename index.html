@@ -354,8 +354,9 @@ Mañana, Tarde y Noche.</p>
         <!-- Start Row -->
         <div class="row">
           <!-- Start Col -->
-          <div class="col-lg-6 col-md-12">
+		  <div class="col-lg-6 col-md-12">
           <form id="contactForm">
+		  <form action="enviar.php" method="post">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
@@ -388,12 +389,13 @@ Mañana, Tarde y Noche.</p>
                 </div>
                 <div class="submit-button">
                   <button class="btn btn-common" id="submit" type="submit">Enviar</button>
-                  <div id="msgSubmit" class="h3 hidden"></div> 
+				  <div id="msgSubmit" class="h3 hidden"></div> 
                   <div class="clearfix"></div> 
-                </div>
+				 </div>
               </div>
             </div>            
           </form>
+		  </form>
           </div>
           <!-- End Col -->
           <!-- Start Col -->
