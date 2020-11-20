@@ -355,9 +355,9 @@ Mañana, Tarde y Noche.</p>
         <div class="row">
           <!-- Start Col -->
 		  <div class="col-lg-6 col-md-12">
-          <form id="contactForm">
-		  <form action="enviar.php" method="post">
-            <div class="row">
+          <form action="POST" data-netlify="true">
+		  <form id="contactForm">
+		     <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
                   <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required data-error="Por favor ingrese su nombre">
@@ -387,8 +387,11 @@ Mañana, Tarde y Noche.</p>
                   <textarea class="form-control" id="mensaje"  name="mensaje" placeholder="Escribir mensaje" rows="4" data-error="Escribir mensaje" required></textarea>
                   <div class="help-block with-errors"></div>
                 </div>
+				<div class="field">
+				<div data-netlify-recaptcha="true"></div>
+				</div>
                 <div class="submit-button">
-                  <input type="submit" button class="btn btn-common" id="enviar" name="enviar">
+                  <button class="btn btn-common" id="submit" type="submit" >Enviar</button>
 				  <div id="msgSubmit" class="h3 hidden"></div> 
                   <div class="clearfix"></div> 
 				 </div>
