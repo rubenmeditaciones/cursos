@@ -357,7 +357,7 @@ Mañana, Tarde y Noche.</p>
 		  <div class="col-lg-6 col-md-12">
 		  <form id="contactForm">
 		     <div class="row">
-	 <form "method="POST" name="contact" netlify>
+			 <form "method="POST" data-netlify="true">
               <div class="col-md-6">
                 <div class="form-group">
                   <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required data-error="Por favor ingrese su nombre">
@@ -387,18 +387,18 @@ Mañana, Tarde y Noche.</p>
                   <textarea class="form-control" id="mensaje"  name="mensaje" placeholder="Escribir mensaje" rows="4" data-error="Escribir mensaje" required></textarea>
                   <div class="help-block with-errors"></div>
                 </div>
-				<div class="field">
-				<div data-netlify-recaptcha="true"></div>
-				</div>
+		<div class="field">
+		<div data-netlify-recaptcha="true"></div>
+		</div>
                 <div class="submit-button">
                   <button class="btn btn-common" id="submit" type="submit" >Enviar</button>
-				  <div id="msgSubmit" class="h3 hidden"></div> 
-                  <div class="clearfix"></div> 
-				 </div>
-              </div>    
-            </div>            
+		 <div id="msgSubmit" class="h3 hidden"></div> 
+                 <div class="clearfix"></div> 
+		 </div>
+              </div>
+		</div>            
           </form>
-	   </form>
+	  </form>
           </div>
           <!-- End Col -->
           <!-- Start Col -->
