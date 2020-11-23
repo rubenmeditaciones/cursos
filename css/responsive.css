@@ -52,7 +52,7 @@
   #business-plan .business-item-info h3 {
     font-size: 28px; }
   #business-plan .business-item-info p {
-    font-size: 13px;
+    font-size: 18px;
     margin-bottom: 20px; }
 	#business-plan .business-item-img {
 	padding-left: 40px;
@@ -110,15 +110,15 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .hero-area .contents h2 {
-    color: #fff;
+    color: #000;
     font-size: 40px !important; }
 .hero-area .videoWrapper iframe{
 		top: 0;
 				}
-	.section-header .desc-text h5 {
-		margin-left: 100px; }
-	.section-header .desc-text1 p {
-		margin-left: 100px;
+	.features .desc-text h5 {
+		margin-left: 60px; }
+	.features .desc-text1 p {
+		margin-left: 60px;
 		}
 		#business-plan .business-item-img {
 		margin-top: 25px;
@@ -189,9 +189,9 @@
 	.hero-area .videoWrapper iframe{
 		top: 0;
 		}
-	.section-header .desc-text h5 {
+	.features .desc-text h5 {
 		margin-left: 60px; }
-	.section-header .desc-text1 p {
+	.features .desc-text1 p {
 		margin-left: 60px;
 		}
   .navbar-expand-md .navbar-brand, .navbar-expand-md .navbar-toggler {
@@ -206,11 +206,12 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .bg-inverse {
     background: #191c1e; }
-	.section-header .desc-text h5 {
-		margin-left: 10px; }
-	.section-header .desc-text1 p {
+	.features .desc-text h5 {
+		margin-left: 20px;
+line-height: 40px;}
+	.features .desc-text1 p {
 		margin-left: 30px;
-				}
+					}
   .navbar {
     padding: 0; }
   .navbar-brand img {
@@ -405,16 +406,23 @@
     margin-bottom: 18px;
     margin-top: 15px; }
   .back-to-top {
-    display: none !important; } }
+    display: none !important; }
+	}
 
 @media (min-width: 375px) and (max-width: 667px) {
   #showcase .showcase-slider .screenshot-thumb > .hover-content {
     height: 83%;
     width: 83%; }
+	.features .desc-text h5 {
+		margin-left: 30px;		}
+		.features .desc-text1 p {
+		margin-left: 30px;
+		font-size:16px;			}
   #showcase .showcase-slider .screenshot-thumb .fancy-table {
     padding-top: 68px; }
   #pricing .pricing-table h1 span {
-    left: 16%; } }
+    left: 16%; }
+	}
 
 @media (min-width: 414px) and (max-width: 736px) {
   #showcase .showcase-slider .screenshot-thumb .fancy-table {
