@@ -74,7 +74,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
    Section Title
    ========================================================================== */
 .section {
-  padding: 130px 0px; }
+  padding: 60px 0px; }
 
 .form-control:focus {
   outline: none;
@@ -495,17 +495,35 @@ button:focus {
       font-weight: 600;
       line-height: 60px;
       margin-bottom: 20px; }
+	  
+	  .hero-area .contents h3 {
+      color: #000;
+      font-size: 28px;
+      font-weight: 600;
+     margin-top:20px;
+       }
+	  
+	  .hero-area .contents h4 {
+      color: #000;
+      font-size: 14px;
+      font-weight: 400;
+    
+       }
+	  
     .hero-area .contents p {
       color: #000;
       font-size: 18px;
       line-height: 26px; }
+	  
     .hero-area .contents .btn {
-      margin-top: 40px;
+      margin-top: 20px;
       margin-right: 20px;
       text-transform: uppercase;
       width: 180px;
       height: 50px;
       padding: 15px 15px; }
+	   
+
     .hero-area .contents .btn-border {
       border: 1px solid #fff;
       color: #000 !important;
@@ -518,6 +536,7 @@ button:focus {
       .hero-area .contents .btn-border:hover {
         background: #fff;
         color: #fff; }
+
 		
   	 .hero-area .videoWrapper {
     position: relative;
@@ -532,6 +551,7 @@ button:focus {
     width: 100%;
     height: 100%;
 }
+
 
 
 /* ==========================================================================
@@ -560,7 +580,7 @@ button:focus {
 
 	  
 	#cursos .column h1 {
-	margin-top: -60px;
+	margin-top: -40px;
 	margin-bottom: 60px;
 	
 }
@@ -574,7 +594,7 @@ button:focus {
 	margin: auto;
 	width: 40%;
 	margin-top: -60px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	
 
   }
@@ -586,7 +606,7 @@ button:focus {
   .column {
     width: 100%;
     display: block;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
   }
   
   #cursos .column h1 {
@@ -708,6 +728,83 @@ button:focus {
 	  
 	  
 /* ==========================================================================
+   orientado requerimientos
+   ========================================================================== */
+	 
+	* {
+  box-sizing: border-box;
+}
+
+
+/* Float four columns side by side */
+.columna {
+  float: left;
+  width: 50%;
+  padding: 20px;
+
+}
+
+/* Remove extra left and right margins, due to padding */
+.fila {margin: 0 -5px;
+margin-right: 15px;
+margin-left: 40px;
+margin-bottom: 20px;
+margin-top: 20px;
+
+
+}
+
+/* Clear floats after the columns */
+.fila:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-bottom:20px;
+
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .fila {margin: 0 -5px;
+margin-right: 5px;
+margin-left: 1px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+  
+  .columna {
+    width: 100%;
+    display: block;
+    margin-bottom: -10px;
+  }
+}
+
+/* Style the counter cards */
+.carta {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: left;
+  background-color: #f1f1f1;
+}
+
+.carta h3{
+	font-size: 24px;
+  color: #000;
+  line-height: 50px;
+  margin-bottom: 0;
+	
+}
+	  
+.carta p {
+	
+	font-size: 16px;
+  color: #5e629c;
+  line-height: 26px;
+  margin-bottom: 0;
+	
+}	  
+	  
+/* ==========================================================================
    Features 
    ========================================================================== */
 #features {
@@ -729,9 +826,31 @@ button:focus {
   color: #000;
   line-height: 50px;
   margin-bottom: 0; }
- 
+  
 
+  
+ /* ==========================================================================
+Post Venta
+   ========================================================================== */
 
+   
+	 
+  .post-venta .desc-text1 p {
+ margin-left:110px;
+ margin-right:70px;
+  font-size: 18px;
+  color: #5e629c;
+  line-height: 26px;
+  margin-bottom: 50px; }
+  
+  .post-venta .desc-text h5 {
+  margin-left: 110px;
+  font-size: 28px;
+  color: #000;
+  line-height: 50px;
+  margin-bottom: 0; }
+   
+   
 
 /* ==========================================================================
    Testimonial section
@@ -988,6 +1107,10 @@ button:focus {
       font-size: 12px;
       color: #5e629c; }
 
+	  
+
+	  
+	  
 /* ==========================================================================
    Blog section
    ========================================================================== */
@@ -1356,3 +1479,4 @@ button:focus {
       -webkit-transition: all 300ms;
       -o-transition: all 300ms;
       transition: all 300ms; }
+
