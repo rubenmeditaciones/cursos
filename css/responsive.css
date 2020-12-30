@@ -92,7 +92,7 @@
   #footer-Content .copyright {
     margin-top: 80px; }
   .hero-area .contents h2 {
-    color: #fff;
+    color: #000;
     font-size: 40px;
     font-weight: 600;
     line-height: 60px;
@@ -120,6 +120,12 @@
 	.features .desc-text1 p {
 		margin-left: 60px;
 		}
+		.post-venta .desc-text h5 {
+		margin-left: 60px; }
+	.post-venta .desc-text1 p {
+		margin-left: 60px;
+		}
+		
 		#business-plan .business-item-img {
 		margin-top: 25px;
 		}
@@ -194,6 +200,11 @@
 	.features .desc-text1 p {
 		margin-left: 60px;
 		}
+		.post-venta .desc-text h5 {
+		margin-left: 60px; }
+	.post-venta .desc-text1 p {
+		margin-left: 60px;
+		}
   .navbar-expand-md .navbar-brand, .navbar-expand-md .navbar-toggler {
     margin: 6px 15px; }
   .bg-inverse {
@@ -207,11 +218,18 @@
   .bg-inverse {
     background: #191c1e; }
 	.features .desc-text h5 {
-		margin-left: 20px;
+		margin-left: 30px;
+		margin-right: 10px;
 line-height: 40px;}
 	.features .desc-text1 p {
 		margin-left: 30px;
 					}
+				.post-venta .desc-text h5 {
+		margin-left: 30px; }
+	.post-venta .desc-text1 p {
+		margin-left: 30px;
+		}
+		
   .navbar {
     padding: 0; }
   .navbar-brand img {
@@ -418,11 +436,39 @@ line-height: 40px;}
 		.features .desc-text1 p {
 		margin-left: 22px;
 		font-size:16px;			}
+		
+			.post-venta .desc-text h5 {
+		margin-left: 22px; }
+	.post-venta .desc-text1 p {
+		margin-left: 22px;
+		font-size:16px;
+		}
   #showcase .showcase-slider .screenshot-thumb .fancy-table {
     padding-top: 68px; }
   #pricing .pricing-table h1 span {
     left: 16%; }
+	
+	
+	  .fila {margin: 0 -5px;
+margin-right: 5px;
+margin-left: 1px;
+margin-bottom: 20px;
+margin-top: 20px;
+
+
+}
+  
+  .columna {
+    width: 100%;
+    display: block;
+    margin-bottom: -10px;
+  }
+}
+	
+	
 	}
+	
+	
 
 @media (min-width: 414px) and (max-width: 736px) {
   #showcase .showcase-slider .screenshot-thumb .fancy-table {
@@ -470,7 +516,7 @@ line-height: 40px;}
   #footer-Content .copyright {
     margin-top: 100px; }
   .hero-area .contents p {
-    color: #fff;
+    color: #000;
     font-size: 16px;
     line-height: 26px; }
   .hero-area2 .contents p {
