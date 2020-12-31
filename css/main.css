@@ -273,7 +273,7 @@ button:focus {
   padding-bottom: 30px; }
 
 .pt-70 {
-  padding-top: 70px; }
+  padding-top: 50px; }
 
 .mb-50 {
   margin-bottom: 50px; }
@@ -1479,4 +1479,5 @@ Post Venta
       -webkit-transition: all 300ms;
       -o-transition: all 300ms;
       transition: all 300ms; }
+
 
